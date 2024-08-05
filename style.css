@@ -46,6 +46,8 @@ h3 {
   width: 100px;
   height: 100px;
   margin: auto;
+  border: 10px blueviolet solid;
+  border-radius: 5rem;
 }
 
 section {
