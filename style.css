@@ -81,7 +81,7 @@ section {
 button {
   display: flex;
   padding: 0.5rem;
-  border-radius: 1rem;
+  border-radius: 2rem;
   border: rgb(101, 31, 167) 1px solid;
   min-width: 200px;
   justify-content: center;
