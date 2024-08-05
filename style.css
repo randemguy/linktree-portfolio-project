@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,16 +8,21 @@
 /* GENERAL */
 
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Poppins","Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
-  background-color: blueviolet;
+  background-color: rgb(200, 144, 253);
+}
+button {
+  font-family: "Poppins","Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 header {
   display: flex;
   padding: 3rem 0 6rem 0;
   justify-content: center;
-  background-color: rgb(20, 20, 20);
+  background-image: url(./assets/header-bg.png);
+  background-size:cover;
+  background-color: rgb(255, 255, 255);
 }
 
 /* profile */
@@ -26,7 +33,7 @@ h1 {
 
 h2 {
   font-size: larger;
-  color: rgb(255, 255, 255);
+  color: rgb(101, 31, 167);
 }
 
 h3 {
@@ -46,7 +53,7 @@ h3 {
   width: 100px;
   height: 100px;
   margin: auto;
-  border: 10px blueviolet solid;
+  border: 10px rgb(200, 144, 253) solid;
   border-radius: 5rem;
 }
 
@@ -75,20 +82,22 @@ button {
   display: flex;
   padding: 0.5rem;
   border-radius: 1rem;
-  border: rgb(56, 56, 56) 1px solid;
-  min-width: 150px;
+  border: rgb(101, 31, 167) 1px solid;
+  min-width: 200px;
   justify-content: center;
+  font-size: medium;
 }
 
 button:hover {
-  background-color: rgb(20, 20, 20);
-  border-color: none;
+  background-color: rgb(101, 31, 167);
   color: white;
 }
 
 /* footer */
 
 footer {
+  display: flex;
+  justify-content: center;
   font-size: small;
   margin: 1rem;
   color: rgb(20, 20, 20);
